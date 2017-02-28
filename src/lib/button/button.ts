@@ -20,7 +20,7 @@ import {CommonModule} from '@angular/common';
 })
 export class BdButton {
     @Input()
-    public label: string;
+    public label: string = 'Initial';
 }
 
 
